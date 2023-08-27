@@ -121,8 +121,7 @@ img {
 
 .hero-section {
     background-color: #2e2f42;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding: 188px 0;
 }
 
 .hero-container {
