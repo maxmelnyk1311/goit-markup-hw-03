@@ -40,24 +40,21 @@ img {
     padding-bottom: 120px;
 }
 
+/* -----------basic styles end ----------- */
+
 .header-container {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-nav {
     display: flex;
     justify-content: space-between;
-    width: 456px;
+    align-items: center;
 }
 
-.header-nav-list {
-    display: flex;
-    justify-content: space-between;
-    width: 261px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+
 
 .site-logo {
     font-family: Raleway, sans-serif;
@@ -69,6 +66,15 @@ img {
     color: #4d5ae5;
     padding-top: 24px;
     padding-bottom: 24px;
+    margin-right: 76px;
+}
+
+.header-nav-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 40px;
 }
 
 .header-logo-span {
@@ -81,8 +87,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-        padding-top: 24px;
-            padding-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-link:hover,
@@ -90,14 +96,10 @@ img {
     color: #404bbf;
 }
 
-
-
 .header-address-list {
     font-style: normal;
     display: flex;
-    justify-content: flex-end;
-    width: 360px;
-    gap: 24px;
+    gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -118,7 +120,6 @@ img {
 
 .hero-section {
     background-color: #2e2f42;
- */
 }
 
 .hero-container {
@@ -126,6 +127,8 @@ img {
     flex-direction: column;
     align-items: center;
     gap: 48px;
+    padding-top: 68px;
+    padding-bottom: 68px;
 }
 
 .hero-header {
@@ -135,6 +138,7 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
     text-align: center;
+    max-width: 496px;
 }
 
 .hero-button {
@@ -146,8 +150,9 @@ img {
     color:#ffffff;
     background-color: #4D5AE5;
     cursor: pointer;
-    width: 170px;
+    min-width: 169px;
     height: 56px;
+    border: none;
     border-radius: 4px;
 }
 
@@ -173,6 +178,7 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    margin-bottom: 8px;
 }
 
 .description-list {
@@ -182,10 +188,6 @@ img {
 }
 
 .description-list-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 8px;
     width: calc((100% - 24px) / 4);
 }
 
@@ -195,6 +197,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .description-item-text {
@@ -239,14 +242,8 @@ img {
 }
 
 .team-member-info {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
     padding-top: 32px;
     padding-bottom: 32px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
 }
 
 .team-member-name {
@@ -255,6 +252,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-member-spec {
@@ -281,14 +279,14 @@ img {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 24px;
     justify-content: space-between;
+    row-gap: 48px;
 }
 
 .portfolio-list-item {
     width: calc((100% - (24 * 3)) / 4);
+    border: 1px solid #e7e9fc;
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item-image {
@@ -296,14 +294,8 @@ img {
 }
 
 .portfolio-item-info {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 16px;
     text-align: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
 }
 
 .portfolio-item-name {
@@ -312,6 +304,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-item-description {
@@ -325,16 +318,7 @@ img {
 
 .footer {
     background-color: #2e2f42;
-}
-
-.footer-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 16px;
-    width: 264px;
+    padding: 100px 0;
 }
 
 .footer-logo-span {
@@ -349,6 +333,8 @@ img {
     letter-spacing: 0.03em;
     color: #4d5ae5;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-description {
@@ -356,5 +342,5 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
-
