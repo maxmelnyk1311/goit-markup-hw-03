@@ -126,7 +126,6 @@ img {
 }
 
 .hero-container {
-    text-align: center;
 }
 
 .hero-header {
@@ -152,6 +151,8 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+    display: block;
+    margin: auto;
 }
 
 .hero-button:hover,
@@ -292,7 +293,6 @@ img {
 
 .portfolio-item-info {
     padding: 32px 16px;
-    /* text-align: center; */
     border: 1px solid #e7e9fc;
     border-top: none;
 }
