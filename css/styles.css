@@ -65,16 +65,15 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
+    display: block;
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-right: 76px;
 }
 
 .header-nav-list {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
     gap: 40px;
 }
 
@@ -88,6 +87,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: block;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -101,8 +101,6 @@ img {
     font-style: normal;
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .address-list-link {
@@ -110,6 +108,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .address-list-link:hover,
@@ -125,10 +126,7 @@ img {
 }
 
 .hero-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 48px;
+    text-align: center;
 }
 
 .hero-header {
@@ -137,8 +135,8 @@ img {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
-    text-align: center;
     max-width: 496px;
+    margin: 0 auto 48px auto;
 }
 
 .hero-button {
@@ -294,7 +292,7 @@ img {
 
 .portfolio-item-info {
     padding: 32px 16px;
-    text-align: center;
+    /* text-align: center; */
     border: 1px solid #e7e9fc;
     border-top: none;
 }
